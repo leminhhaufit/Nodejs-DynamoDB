@@ -1,0 +1,37 @@
+[
+    {
+        "tenbaibao" : "Người cùng khổ",
+        "tentacgia" : "Nguyễn Chất Hàng",
+        "isbn" : "111-222-3333",
+        "sotrang" : "500",
+        "nam" : "2019"
+    },
+    {
+        "tenbaibao" : "Ánh Trăng",
+        "tentacgia" : "Tố Hữu",
+        "isbn" : "222-333-666",
+        "sotrang" : "200",
+        "nam" : "2010"
+    },
+    {
+        "tenbaibao" : "Người Trong Rừng",
+        "tentacgia" : "Đặng Xuân Chữ",
+        "isbn" : "111-222-3333",
+        "sotrang" : "670",
+        "nam" : "2009"
+    },
+    {
+        "tenbaibao" : "Trái Đất",
+        "tentacgia" : "Minh Quý",
+        "isbn" : "111-222-3333",
+        "sotrang" : "123",
+        "nam" : "2020"
+    },
+    {
+        "tenbaibao" : "Bão Miền Trung",
+        "tentacgia" : "Quý Minh",
+        "isbn" : "123-456-789",
+        "sotrang" : "345",
+        "nam" : "2001"
+    }
+]

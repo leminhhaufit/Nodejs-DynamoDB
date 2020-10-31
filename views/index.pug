@@ -1,0 +1,36 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  body
+  ul.navbar-nav
+    li.nav-item
+      a.nav-link(href="/them") Them news moi
+  table.table
+    thead.thead-dark
+      tr
+        th Ten bai bao
+        th Ten tac gia
+        th Isbn
+        th So trang
+        th Nam
+        th Action
+    each val in result
+      tr
+        th= val.tenbaibao
+        th= val.tentacgia
+        th= val.isbn
+        th= val.sotrang
+        th= val.nam
+        th
+          a.btn.btn-primary(href='/sua/'+val.tenbaibao) Sua
+          a.btn.btn-primary(href='/xoa/'+val.tenbaibao) Xoa
+    
+        
+  
+
+
+
+
+ 

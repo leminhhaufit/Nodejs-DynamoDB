@@ -1,0 +1,32 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  body
+  ul.navbar-nav
+    li.nav-item
+      a.nav-link(href="/") Trang chu
+  form(action="/them", method="post")
+    .row
+      .col-md-12
+        label(for="tenbaibao") Ten bai bao
+        input.form-control(type="text" name="tenbaibao")
+        label(for="tentacgia") Ten tac gia
+        input.form-control(type="text" name="tentacgia")
+        label(for="isbn") ISBN
+        input.form-control(type="text" name="isbn")
+        label(for="sotrang") So trang
+        input.form-control(type="text" name="sotrang")
+        label(for="nam") Nam
+        input.form-control(type="text" name="nam")
+        input.form-control(type="submit" value="Them")
+        
+    
+    
+  
+
+
+
+
+ 

@@ -1,0 +1,32 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  body
+  ul.navbar-nav
+    li.nav-item
+      a.nav-link(href="/") Trang chu
+  each val in result
+    form(action="/sua", method="post")
+      .row
+        .col-md-12
+          label(for="tenbaibao") Ten bai bao
+          input.form-control(type="text" name="tenbaibao" readonly value=val.tenbaibao)
+          label(for="tentacgia") Ten tac gia
+          input.form-control(type="text" name="tentacgia" value=val.tentacgia)
+          label(for="isbn") ISBN
+          input.form-control(type="text" name="isbn" value=val.isbn)
+          label(for="sotrang") So trang
+          input.form-control(type="text" name="sotrang" value=val.sotrang)
+          label(for="nam") Nam
+          input.form-control(type="text" name="nam" value=val.nam)
+          input.btn.btn-primary(type="submit" value="Sua")    
+    
+    
+  
+
+
+
+
+ 
